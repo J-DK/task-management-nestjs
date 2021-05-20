@@ -1,9 +1,10 @@
 import {
   BaseEntity,
   Column,
-  Entity, OneToMany,
+  Entity,
+  OneToMany,
   PrimaryGeneratedColumn,
-  Unique
+  Unique,
 } from 'typeorm';
 import * as bcrypt from 'bcrypt';
 import { Task } from '../tasks/task.entity';
